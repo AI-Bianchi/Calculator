@@ -19,6 +19,19 @@ describe('POST /api/calculate', function() {
           });
     });
 
+    it('Simple soustraction', function(done) {
+      request
+          .post('/api/calculate')
+          .send({"calcul": "10-1"})
+          .expect(200)
+          .end(function(err, res) {
+              expect(res.text).to.eql("9");
+              if (err) return done(err);
+              return done();
+          });
+    });
+
+
     it('Simple mutiplication', function(done) {
       request
           .post('/api/calculate')

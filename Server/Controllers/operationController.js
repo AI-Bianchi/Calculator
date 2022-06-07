@@ -45,5 +45,10 @@ export function calculate(value) {
         value = WR(value, /([^+]+)\+([^+]+)/, function (s, x, y) {
             return toInt(x) + toInt(y);
         });
+
+        value = WR(value, /([^+-]+)\-([^+*]+)/, function (s, x, y) {
+            return toInt(x) - toInt(y);
+        });
+
         return value;
     }
