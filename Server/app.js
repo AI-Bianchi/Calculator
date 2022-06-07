@@ -11,10 +11,8 @@ app.use(bodyParser.json());
 app.post('/api/calculate', function (req,res,next){
 
     if (req.body) {
-    	//console.log(req.body.calcul);
    		var value = req.body.calcul;
    		value = value.toString().replace(/[^0-9%^*\/()\-+.]/g,''); // keep only 0-9 +-.*/()
-			//console.log(value);
 			res.send(calculate(value));
     }
 });

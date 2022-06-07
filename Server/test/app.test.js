@@ -31,6 +31,19 @@ describe('POST /api/calculate', function() {
           });
     });
 
+    it('Simple division', function(done) {
+      request
+          .post('/api/calculate')
+          .send({"calcul": "10/2"})
+          .expect(200)
+          .end(function(err, res) {
+              expect(res.text).to.eql("5");
+              if (err) return done(err);
+              return done();
+          });
+    });
+
+
     it('Priorize operation', function(done) {
       request
           .post('/api/calculate')
