@@ -2,7 +2,7 @@
 
 Front with ReactJS, Back with NodeJS
 
-First you sould to install into Client/ Server/ directory
+First you should to install into Client/ Server/ directory
 
 	npm install
 
