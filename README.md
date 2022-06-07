@@ -11,6 +11,8 @@ run server into Server/ directory
 	node app.js
 
 If you want to test Node API
-npm test  or mocha test/app.test.js
+
+	npm test
+	mocha test/app.test.js
 
 Live Demo : 
