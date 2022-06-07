@@ -1,6 +1,6 @@
 <h1>Simple calculator Apps</h1>
 
-Author: Bianchi Jefferson
+Author:		Bianchi Jefferson
 
 Front with ReactJS, Back with NodeJS
 
