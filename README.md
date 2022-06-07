@@ -2,6 +2,10 @@
 
 Front with ReactJS, Back with NodeJS
 
+First you sould to install into Client/ Server/ directory
+
+	npm install
+
 run React client into Client/ directory
 
 	npm start
@@ -16,3 +20,5 @@ If you want to test Node API
 	mocha test/app.test.js
 
 Live Demo : 
+
+	http://aibianchi.com:3000
