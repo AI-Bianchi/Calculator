@@ -1,12 +1,14 @@
-Simple calculator Apps
-Front with ReactJS
-Back with NodeJS
+<h1>Simple calculator Apps</h1>
+
+Front with ReactJS, Back with NodeJS
 
 run React client into Client/ directory
-npm start
+
+	npm start
 
 run server into Server/ directory
-node app.js
+	
+	node app.js
 
 If you want to test Node API
 npm test  or mocha test/app.test.js
